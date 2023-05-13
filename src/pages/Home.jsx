@@ -28,7 +28,7 @@ export default function Home() {
                     </div>
                     <div className='flex justify-center w-3/5'>
                         <Link to='/bebekit'>
-                            <p className='rounded-full py-8 px-10 font-bold text-4xl bg-white text-brand shrink-0'># Bebe kit</p> 
+                            <p className='rounded-full py-8 px-10 font-bold text-4xl bg-white text-gray-800  hover:text-red-400 text-brand shrink-0'># Bebe kit</p> 
                         </Link>
                     </div>
                 </div>

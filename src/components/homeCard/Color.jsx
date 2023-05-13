@@ -40,7 +40,7 @@ const circleColors = circles.map((circle) => {
     const textColor = circle.color === 'brand4' ? 'hover:text-white' : 'hover:text-black';
     return (
       <div key={circle.name} 
-        className={`flex justify-center items-center rounded-full w-36 h-36 my-8 bg-${circle.color} text-${circle.color} ${textColor} font-semibold`}> 
+        className={`flex justify-center items-center rounded-full w-36 h-36 my-8 bg-${circle.color} text-${circle.color} hover:${textColor} font-semibold`}> 
           {circle.name}
       </div>
     );

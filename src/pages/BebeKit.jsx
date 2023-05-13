@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 
 export default function BebeKit() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[])
+    
     return (
         <div className='h-full text-cneter'>
-            <div className='flex justify-center items-center p-10'>
-            <video width="1120" height="630" autoPlay muted className=' rounded-lg'>
+            <div className='flex justify-center items-center p-2'>
+            <video width="1360" height="720" autoPlay muted className=' rounded-lg'>
                     <source src={'/videos/video.mp4'} type='video/mp4' />
                 </video>
             </div>

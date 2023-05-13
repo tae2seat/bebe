@@ -4,6 +4,8 @@ import CrewCard from '../components/CrewCard';
 import crewBanner from '../images/crew.png';
 
 export default function Crew() {
+    
+
     return (
         <div className=''>
             <div className='relative' >
@@ -25,8 +27,8 @@ export default function Crew() {
             <CrewCard />
             <Link to='/crew/apply'>
                 <div className='flex justify-center items-center'>
-                <button className='text-bold text-3xl px-8 py-5 text-brand hover:text-black pb-20'>베베 크루 지원하기 </button>
-            </div>
+                <p className='text-bold text-3xl px-8 py-5 text-brand hover:text-black pb-20'>베베 크루 지원하기 </p>
+                </div>
             </Link>
         </div>
     );

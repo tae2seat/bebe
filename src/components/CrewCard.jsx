@@ -67,7 +67,6 @@ export default function CrewCard() {
             setMore(!more)
         });
 
-        console.log(more)
     return (
         <div className='my-48 mx-40 '>
             <div className='grid grid-cols-3 gap-y-20 gap-x-10'>       
