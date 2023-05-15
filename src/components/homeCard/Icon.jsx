@@ -166,6 +166,7 @@ export default function Icon() {
         <p className='text-sm font-semibold' >{icon.name}</p>
     </div>
     )
+
     return (        
        <div className='flex justify-center '>
              <div className='grid grid-cols-6 w-3/4 justify-items-center gap-8'>

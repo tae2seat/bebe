@@ -38,9 +38,10 @@ const circles = [
 
 const circleColors = circles.map((circle) => {
     const textColor = circle.color === 'brand4' ? 'hover:text-white' : 'hover:text-black';
+    const bgColor = `bg-${circle.color}`
     return (
       <div key={circle.name} 
-        className={`flex justify-center items-center rounded-full w-36 h-36 my-8 bg-${circle.color} text-${circle.color} hover:${textColor} font-semibold`}> 
+        className={`flex justify-center items-center rounded-full w-36 h-36 my-8 ${bgColor} text-${circle.color} ${textColor} font-semibold`}> 
           {circle.name}
       </div>
     );
@@ -53,7 +54,7 @@ if(!circleColors) {
 
 export default function Color() {
     return (
-        <div className='grid grid-cols-4 justify-items-center mx-64 my-32 '>
+        <div className='grid grid-cols-4 justify-items-center mx-64 my-16 '>
             {circleColors}
         </div>
     );

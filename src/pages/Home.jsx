@@ -35,7 +35,7 @@ export default function Home() {
             </div>
         </div>
         <Service />
-        <div className='flex flex-col items-center py-10'>
+        <div className='flex flex-col items-center py-28'>
             <h1 className='text-center text-6xl font-bold my-6' >Brand Value</h1>
             <p className='text-center  py-20 font-semibold text-4xl leading-normal'>
                 "베베"는 우리의 서비스를 누구나 잘 이해하고<br/>
@@ -45,18 +45,14 @@ export default function Home() {
             </p>
         </div>
         <Icon />
-        <div className=''>
-            <div>
-                <h1 className='text-center text-6xl font-bold my-20'>Brand Color system</h1>
-                <div className='flex justify-center text-center font-semibold text-4xl leading-normal'>
-                    "베베"의 컬러시스템을 통해 브랜드를 조금 더 명확하고<br/>
-                    통일시켜 소비자의 혼란을 줄여줍니다.
-                </div>
-            </div>
-            <div className=''>
-                <Color />
+        <div className='pt-32 pb-16' >
+            <h1 className='text-center text-6xl font-bold mb-16'>Brand Color system</h1>
+            <div className='flex justify-center text-center font-semibold text-4xl leading-normal my-10'>
+                "베베"의 컬러시스템을 통해 브랜드를 조금 더 명확하고<br/>
+                통일시켜 소비자의 혼란을 줄여줍니다.
             </div>
         </div>
+        <Color />
     </div>
     )
 }
