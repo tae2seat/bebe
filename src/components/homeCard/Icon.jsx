@@ -161,7 +161,7 @@ const icons = [
 export default function Icon() {
 
     const iconList = icons.map((icon) => 
-    <div key={icon.name} className='flex flex-col justify-center items-center gap-1  w-28 h-28 p-2 bg-slate-100 rounded-full'>
+    <div key={icon.name} className='flex flex-col justify-center items-center gap-1  w-28 h-28 p-2 bg-slate-100 rounded-full transition-transform hover:scale-110 cursor-pointer'>
         <img src={icon.src} alt={icon.name} className='w-14 h-14' />
         <p className='text-sm font-semibold' >{icon.name}</p>
     </div>

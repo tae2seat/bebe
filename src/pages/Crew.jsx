@@ -27,7 +27,7 @@ export default function Crew() {
             <CrewCard />
             <Link to='/crew/apply'>
                 <div className='flex justify-center items-center'>
-                <p className='text-bold text-3xl px-8 py-5 text-brand hover:text-black pb-20'>베베 크루 지원하기 </p>
+                <p className='text-bold text-3xl px-8 py-5 text-brand hover:text-black pb-20  transition-transform hover:scale-110 '>베베 크루 지원하기 </p>
                 </div>
             </Link>
         </div>
