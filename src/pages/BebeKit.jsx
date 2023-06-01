@@ -16,9 +16,7 @@ export default function BebeKit() {
     const videoRef = useRef(null);
 
     const handleVideoEnded = () => {
-        videoRef.current.currentTime = 22;
-        videoRef.current.play();
-       
+        videoRef.current.currentTime = 10;
     }
     
     return (
