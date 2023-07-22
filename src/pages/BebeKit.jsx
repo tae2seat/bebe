@@ -8,6 +8,7 @@ import wash from "../images/wash.png";
 import product from "../images/product.png";
 import right from "../images/right.png";
 import left from "../images/left.png";
+import banner from "../images/banner.png";
 
 export default function BebeKit() {
   const images = [kitInfo, kitInfo2, checkList, box, wash, product];
@@ -17,7 +18,7 @@ export default function BebeKit() {
     "Check List",
     "아기 쪽쪽이",
     "Hand soap",
-    "야기 젖병",
+    "아기 젖병",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -41,7 +42,7 @@ export default function BebeKit() {
   return (
     <div>
       <div className="flex justify-center items-center">
-        <video width="full" height="720" muted={false} className="" controls>
+        <video width="full" height="720" muted={false} controls poster={banner}>
           <source src={"/videos/video.mp4"} type="video/mp4" />
         </video>
       </div>
