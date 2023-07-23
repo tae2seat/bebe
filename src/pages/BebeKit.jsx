@@ -63,7 +63,6 @@ export default function BebeKit() {
         </div>
         <img src={bebekit} alt="kit" />
       </div>
-
       <div className="flex flex-col mb-20">
         <h1 className="text-center text-3xl py-10">Bebe kit 제품들</h1>
         <div className="flex justify-center">
