@@ -40,7 +40,7 @@ export default function Apply() {
         베베지원서 작성하기
       </p>
 
-      <form className=" border border-gray-100 p-20">
+      <form className=" p-20">
         <div className="flex justify-start gap-10 mb-16 ">
           <img className="w-36 h-48" />
           <div className="flex flex-col justify-center gap-2 w-1/3">
