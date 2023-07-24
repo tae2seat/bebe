@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import bebekit from "../images/bebekit.png";
 import checkList from "../images/checkList.png";
 import kitInfo from "../images/kitInfo.png";
@@ -73,7 +73,7 @@ export default function BebeKit() {
             <img
               className="w-1/2 h-72 object-cover"
               src={images[currentImageIndex]}
-              alt="image"
+              alt="images"
             />
             <p className="mt-4">{descriptions[currentImageIndex]}</p>
           </div>
