@@ -13,8 +13,8 @@ import register from "../../images/diary/register.jpg";
 
 export default function BebeDairy() {
   const images = [
-    login,
     register,
+    login,
     profile,
     babyProfile,
     profileEdit,
@@ -38,10 +38,10 @@ export default function BebeDairy() {
 
   return (
     <div>
-      <h1 className="text-center">Bebe Diary</h1>
+      <h1 className="text-center text-5xl py-20">Bebe Diary</h1>
       <p className="text-center">베베 다이어리 설명</p>
       <div className="flex">
-        <button onClick={clickLeft}>
+        <button onClick={clickLeft} className=" pl-32">
           <img src={left} alt="left" />
         </button>
         <div className="flex flex-col w-2/3 mx-auto border border-gray-500 my-40">
@@ -52,7 +52,7 @@ export default function BebeDairy() {
           <img src={bottom} alt="bottom" />
         </div>
         <button onClick={clickRight}>
-          <img src={right} alt="right" />
+          <img src={right} alt="right" className="pr-32" />
         </button>
       </div>
     </div>
