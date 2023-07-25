@@ -19,7 +19,7 @@ export default function Navbar() {
     clearTimeout(timeoutRef.current);
     timeoutRef.current = setTimeout(() => {
       setMoreVisible(false);
-    }, 500);
+    }, 300);
   };
   return (
     <header className="flex justify-between w-full h-24">
