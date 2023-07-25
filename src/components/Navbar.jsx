@@ -45,14 +45,29 @@ export default function Navbar() {
             <CiCircleMore />
           </button>
           <nav
-            className={` absolute bg-yellow-300 ${
+            className={` absolute bg-brand2 text-gray-600 ${
               isMoreVisible ? "" : "hidden"
-            } flex flex-col top-24  z-10 text-center py-6 px-2 gap-2`}
+            } flex flex-col top-24 -right-52 z-10 rounded-b-xl text-center py-3 px-6 gap-2 bg-opacity-30`}
           >
-            <h1>홈페이지 이동하기</h1>
-            <a href="https://www.mybebe.net/bebeFamily">www.mybebe.net</a>
-            <a href="https://mall.mybebe.net/">www.mall.mybebe.net</a>
-            <a href="https://diary.mybebe.net/">www.diary.mybebe.net</a>
+            <h1 className="text-lg py-1 text-brand1">홈페이지 이동하기</h1>
+            <a
+              className="hover:underline  hover:text-brand1"
+              href="https://www.mybebe.net/bebeFamily"
+            >
+              www.mybebe.net
+            </a>
+            <a
+              className="hover:underline  hover:text-brand1"
+              href="https://mall.mybebe.net/"
+            >
+              www.mall.mybebe.net
+            </a>
+            <a
+              className="hover:underline  hover:text-brand1"
+              href="https://diary.mybebe.net/"
+            >
+              www.diary.mybebe.net
+            </a>
           </nav>
         </div>
         <button className="w-16 h-16 flex items-center justify-center text-3xl shrink-0 ">
