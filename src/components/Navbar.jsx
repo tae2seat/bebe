@@ -21,6 +21,7 @@ export default function Navbar() {
       setMoreVisible(false);
     }, 300);
   };
+
   return (
     <header className="flex justify-between w-full h-24">
       <div className=" flex justify-center items-center w-1/4 p-2">
