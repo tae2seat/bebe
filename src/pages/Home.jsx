@@ -20,7 +20,7 @@ export default function Home() {
             </p>
             <img className="animate-pulse mb-6" src={vector} alt="vector" />
             <Link
-              className="rounded-full py-8 px-10 font-bold text-4xl bg-white text-gray-800  hover:text-red-400 text-brand shrink-0"
+              className="rounded-full py-8 px-10 font-bold text-4xl bg-white text-gray-800 hover:text-red-400 text-brand shrink-0"
               to="/bebekit"
             >
               # Bebe kit

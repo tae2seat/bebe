@@ -46,9 +46,7 @@ export default function BebeDairy() {
         </button>
         <div className="flex flex-col w-2/3 mx-auto border border-gray-500 my-40">
           <img src={navbar} alt="navbar" />
-          <div className="w-full  object-contain">
-            <img src={images[currentImageIndex]} alt="images" />
-          </div>
+          <img src={images[currentImageIndex]} alt="images" />
           <img src={bottom} alt="bottom" />
         </div>
         <button onClick={clickRight}>
