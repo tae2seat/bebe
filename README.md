@@ -19,5 +19,5 @@ Bebe Company Homepage은 베베 브랜드와 회사 내 직원들의 정보를 �
 
 ### To do List
 
-- [] Bebe Care 홈페이지 제작 & Bebe Company Homepage 추가하기
-- [] Crew 지원하기 백엔드와 협업
+- [ ] Bebe Care 홈페이지 제작 & Bebe Company Homepage 추가하기
+- [ ] Crew 지원하기 백엔드와 협업
