@@ -11,8 +11,8 @@ export default function Home() {
     <div>
       <div className="relative">
         <img src={banner} alt="banner" />
-        <div className="absolute left-3 bottom-8">
-          <div className="flex items-end gap-8 p-4">
+        <div className="absolute left-10 bottom-8">
+          <div className="flex items-end gap-10 p-4">
             <p className="text-[86px] leading-snug font-bold text-white">
               we support
               <br />

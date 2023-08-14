@@ -13,11 +13,6 @@ export default function Footer() {
           <p>베베AI</p>
         </div>
         <div className="text-sm">
-          <h2 className=" font-bold py-1">가나다라</h2>
-          <p>마바사아</p>
-          <p>자카타파하</p>
-        </div>
-        <div className="text-sm">
           <h2 className=" font-bold py-1">인재영입</h2>
           <p>직무 소개</p>
           <p>회사 지원하기</p>
@@ -34,7 +29,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-end text-white text-xs my-2 pr-4">
+      <div className="text-end text-white text-xs my-2 mr-20">
         <h2>베베(주)</h2>
         <div>
           <p>사업자 등록번호: 000-00-00000</p>

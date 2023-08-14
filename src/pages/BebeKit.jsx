@@ -35,9 +35,9 @@ export default function BebeKit() {
     );
   };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div>
@@ -47,7 +47,7 @@ export default function BebeKit() {
         </video>
       </div>
       <div className="relative text-center">
-        <div className="absolute top-10 left-10 text-xl leading-normal">
+        <div className="absolute top-10 left-28 text-xl leading-normal">
           <h1 className="text-center text-5xl font-semibold py-8">
             아이의 첫 시작을 Bebe가 응원합니다.
           </h1>
@@ -63,23 +63,29 @@ export default function BebeKit() {
         </div>
         <img src={bebekit} alt="kit" />
       </div>
-      <div className="flex flex-col mb-20">
-        <h1 className="text-center text-3xl py-10">Bebe kit 제품들</h1>
-        <div className="flex justify-center">
-          <button onClick={clickLeft}>
-            <img src={left} alt="left" />
-          </button>
-          <div className="flex flex-col items-center w-2/3">
-            <img
-              className="w-1/2 h-72 object-cover"
-              src={images[currentImageIndex]}
-              alt="images"
-            />
-            <p className="mt-4">{descriptions[currentImageIndex]}</p>
-          </div>
-          <button onClick={clickRight}>
-            <img src={right} alt="right" />
-          </button>
+      <div className="w-3/4 mx-auto ">
+        <h1 className="text-center text-4xl py-10">Bebe kit 제품 둘러보기</h1>
+        <p className="text-center text-2xl py-2 mb-10 ">
+          {descriptions[currentImageIndex]}
+        </p>
+        <div className="flex justify-between items-center gap-20 mb-20">
+          <img
+            src={left}
+            alt="left"
+            onClick={clickLeft}
+            className="w-10 h-10 cursor-pointer"
+          />
+          <img
+            className="object-cover h-[500px] rounded-md"
+            src={images[currentImageIndex]}
+            alt="images"
+          />
+          <img
+            src={right}
+            alt="right"
+            onClick={clickRight}
+            className="w-10 h-10 cursor-pointer"
+          />
         </div>
       </div>
     </div>
