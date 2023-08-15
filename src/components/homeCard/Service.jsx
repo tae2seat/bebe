@@ -15,7 +15,7 @@ export default function Service() {
         />
         <TagButton
           bgColor={tagValue === 2 ? "bg-brand1" : "bg-[#f95c58]/30"}
-          text={"Bebe Care"}
+          text={"Bebe Kit"}
           onClick={() => setTagValue(2)}
         />
         <TagButton
