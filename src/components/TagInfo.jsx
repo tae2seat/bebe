@@ -7,7 +7,7 @@ export default function TagInfo({ tagValue }) {
         <p className="">
           우리 아이의 성장을 "Bebe Diary"와 함께 기록하고 관리하세요.
           <br />
-          소중한 장면을 같이 또 따로 기억될 수 있도록 도와줄께요.
+          소중한 장면을 같이 또 따로 기억될 수 있도록 도와줄게요.
         </p>
       );
     case 2:
