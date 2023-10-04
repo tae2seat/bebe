@@ -1,33 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import BebeDiary from "../components/bebeFamilyPage/BebeDairy";
 import BebeMall from "../components/bebeFamilyPage/BebeMall";
-import BebeCare from "../components/bebeFamilyPage/BebeCare";
+import title from "../images/green.png";
 
 export default function BebeFamily() {
-  const [page, setPage] = useState(1);
-
   return (
-    <div>
-      <nav className="border-b border-brand2">
-        <ul className="flex justify-around items-center h-14 text-2xl text-brand4">
-          <li onClick={() => setPage(1)}>
-            <p className="cursor-pointer">Diary</p>
-          </li>
-          <li onClick={() => setPage(2)}>
-            <p className="cursor-pointer">Mall</p>
-          </li>
-          <li onClick={() => setPage(3)}>
-            <p className="cursor-pointer">Care</p>
-          </li>
-        </ul>
-      </nav>
-      {page === 1 ? (
-        <BebeDiary />
-      ) : page === 2 ? (
-        <BebeMall />
-      ) : page === 3 ? (
-        <BebeCare />
-      ) : null}
+    <div className=" border-gray-200 border-t-2">
+      <BebeDiary />
+      <BebeMall />
+      <div className="relative flex justify-center items-center mt-20 mb-10">
+        <img src={title} alt="title" className="w-80 h-10" />
+        <h1 className="absolute bottom-4 text-5xl">Bebe Kit</h1>
+      </div>
+      <p className="text-center text-2xl mb-16">
+        아이의 첫 시작을 Bebe가 응원합니다.
+        <br />
+        "Bebekit"는 산모와 아이에게 필요한 용품과 정보가 20가지 들어있는
+        상자이자 브랜드 그 자체를 의미합니다.
+      </p>
     </div>
   );
 }

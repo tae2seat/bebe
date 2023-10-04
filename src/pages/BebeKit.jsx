@@ -63,31 +63,6 @@ export default function BebeKit() {
         </div>
         <img src={bebekit} alt="kit" />
       </div>
-      <div className="w-3/4 mx-auto ">
-        <h1 className="text-center text-4xl py-10">Bebe kit 제품 둘러보기</h1>
-        <p className="text-center text-2xl py-2 mb-10 ">
-          {descriptions[currentImageIndex]}
-        </p>
-        <div className="flex justify-between items-center gap-20 mb-20">
-          <img
-            src={left}
-            alt="left"
-            onClick={clickLeft}
-            className="w-10 h-10 cursor-pointer"
-          />
-          <img
-            className="object-cover h-[500px] rounded-md"
-            src={images[currentImageIndex]}
-            alt="images"
-          />
-          <img
-            src={right}
-            alt="right"
-            onClick={clickRight}
-            className="w-10 h-10 cursor-pointer"
-          />
-        </div>
-      </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Home() {
         <img src={banner} alt="banner" />
         <div className="absolute left-10 bottom-8">
           <div className="flex items-end gap-10 p-4">
-            <p className="text-[86px] leading-snug font-bold text-white">
+            <p className="text-[82px] leading-snug font-bold text-white">
               we support
               <br />
               every baby's first step
@@ -30,8 +30,8 @@ export default function Home() {
       </div>
       <Service />
       <div className="text-center py-28">
-        <h1 className="text-6xl font-bold mb-24 ">Brand Value</h1>
-        <p className="font-semibold text-4xl leading-normal">
+        <h1 className="text-5xl font-bold mb-24 ">Brand Value</h1>
+        <p className="font-semibold text-3xl leading-normal">
           "베베"는 우리의 서비스를 누구나 잘 이해하고
           <br />
           가치를 공유하며, 나아가기를 희망합니다.
@@ -43,8 +43,8 @@ export default function Home() {
       </div>
       <Icon />
       <div className="text-center py-28">
-        <h1 className="text-6xl font-bold mb-24">Brand Color system</h1>
-        <div className="font-semibold text-4xl leading-normal">
+        <h1 className="text-5xl font-bold mb-24">Brand Color system</h1>
+        <div className="font-semibold text-3xl leading-normal">
           "베베"의 <span className="text-brand1">컬러시스템</span>을 통해
           브랜드를 조금 더 명확하고
           <br />
