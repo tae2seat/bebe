@@ -2,6 +2,7 @@ import React from "react";
 import BebeDiary from "../components/bebeFamilyPage/BebeDairy";
 import BebeMall from "../components/bebeFamilyPage/BebeMall";
 import title from "../images/green.png";
+import kit from "../images/bebekit.png";
 
 export default function BebeFamily() {
   return (
@@ -18,6 +19,9 @@ export default function BebeFamily() {
         "Bebekit"는 산모와 아이에게 필요한 용품과 정보가 20가지 들어있는
         상자이자 브랜드 그 자체를 의미합니다.
       </p>
+      <div className="w-1/2 object-contain mx-auto mb-12 rounded-lg border-2 border-red-200">
+        <img src={kit} alt="kit" />
+      </div>
     </div>
   );
 }

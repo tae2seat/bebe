@@ -1,5 +1,6 @@
 import React from "react";
 import title from "../../images/green.png";
+import mall from "../../images/mall/home.jpg";
 
 export default function BebeMall() {
   return (
@@ -11,6 +12,11 @@ export default function BebeMall() {
       <p className="text-center text-2xl mb-16">
         아이 용품 "Bebe Mall"에서 구입하세요. Best Products, High Quality
       </p>
+      <img
+        src={mall}
+        alt="mall"
+        className="w-1/2 mx-auto mb-12 rounded-lg border-2 border-red-200"
+      />
       <div className="flex justify-center items-center">
         <a href="https://mall.mybebe.net/">
           👉🏻{" "}
